@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="text-2xl text-red-600 font-bold">
-      Nameste Every one lets build Netfilx GPT
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
